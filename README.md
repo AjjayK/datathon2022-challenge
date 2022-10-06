@@ -39,6 +39,8 @@ You can do lots of things with embeddings but mostly, they are inputs for other 
 
 There are numerous ways to measure similarity.  The most common methods are euclidian distance and cosine similarity but don't let yourself be constrained to these.  If you have a good hypothesis for a novel similarity measure, here's your chance to test it out!
 
+(There are some examples in `similarity-example.py`)
+
 Once you decide on a distance metric, you can use methods like k-Nearest Neighbors to compare data points to groups of neighbors.  You can even use graphs to represent relationships between data points.  Here's your chance to experiment and go wild!
 
 ## I need more data points
