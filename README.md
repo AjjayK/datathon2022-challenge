@@ -4,7 +4,7 @@
 ## What is an embedding?
 An embedding is a dense mathematical representation of some input data.  For this challenge, the embedding is the first half of Bloomberg INDG's prototype model to assign news articles to various publishing channels.  
 
-The output is a 512 element list `list` of 16 floating point numbers from -1 to 1.  The list is a compressed representation of the input text fed to the model.  For those with experience in deep learning, this is the output of a tanh pooling layer.  
+The output is a 512 element list of 16 floating point numbers from -1 to 1.  The list is a compressed representation of the input text fed to the model.  For those with experience in deep learning, this is the output of a tanh pooling layer.  
 
 ## The Data
 There are two embedding datasets for this challenge
