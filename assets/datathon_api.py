@@ -16,8 +16,9 @@ def get_embedding(text, api_key):
         print(Exception)
         
     try:
+        # return response 
         result = response.json()
-        return json.loads(result['body']['results'])[0]
+        return json.loads(result['results'])
     except:
         print(response.status_code)
         
