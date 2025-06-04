@@ -15,7 +15,7 @@ def cos_similarity(a, b):
 
 cos_similarity(embedding_01, embedding_02)
 
-## Euclidian distance
+## Euclidean distance
 ## You'll definitely want to figure out a way of normalizing this.  One way is probably dist/max_dist 
 spatial.distance.euclidean(embedding_01, embedding_02)  
 
